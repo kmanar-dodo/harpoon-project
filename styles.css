@@ -68,4 +68,11 @@ h1 em { color: var(--coral); font-style: normal; }
 .letter-sheet .letter-date { margin-bottom: 50px; }
 .letter-sheet .signature { margin-top: 48px; color: #4d5f5e; }
 .signature em { font-family: var(--serif); font-size: 32px; }
+.secret-link { color: var(--muted); }
+.secret-link:hover { color: var(--ink); }
+.proof-page { padding: 100px 0 130px; }
+.proof-page h1 { margin: 0 0 48px; font-size: clamp(56px, 9vw, 112px); line-height: .9; font-weight: 700; }
+.proof-figure { margin: 0; }
+.proof-figure img { display: block; width: min(60%, 650px); height: auto; margin-inline: auto; border: 2px solid var(--ink); }
+.proof-figure figcaption { margin-top: 12px; color: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 @media (max-width: 720px) { .page-width, .site-header { width: min(100% - 32px, 1120px); } .site-header { flex-wrap: wrap; gap: 18px; } .header-note { display: none; } .site-nav { order: 3; width: 100%; justify-content: space-between; gap: 10px; } .site-nav a { font-size: 12px; } .hero { padding-top: 76px; padding-bottom: 75px; } .hero h1 { font-size: clamp(40px, 11vw, 58px); } .home-grid { grid-template-columns: 1fr; } .feature-panel { min-height: 290px; } .feature-panel + .feature-panel { border-top: 1px solid var(--ink); border-left: 0; } .feature-panel h2 { top: 90px; font-size: 34px; } .feature-panel p { top: 145px; } .feature-panel .panel-label { bottom: 24px; } .inner-page { padding-top: 72px; } .inner-page h1 { font-size: 68px; } .source-item { grid-template-columns: 38px 1fr; gap: 10px; } .source-status { grid-column: 2; } .letter-sheet { padding-left: 22px; } }
